@@ -461,3 +461,44 @@ header a:focus {
 .social-icon {
   fill: #f4f4fd;
 }
+
+/* Modal */
+
+.overlay {
+  height: 100vh;
+  width: 100vh;
+  background-color: rgba(0, 0, 0, 1);
+  z-index: 9998;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 408px;
+  height: 584px;
+  z-index: 9999;
+  visibility: hidden;
+  background-color: #fcfcfc;
+}
+
+.is-open {
+  visibility: visible;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+}
+
+.input-box {
+}
+
+.modal-privacy {
+  color: #4d5ae5;
+  text-decoration: underline;
+}
+
+.form-submit {
+}
