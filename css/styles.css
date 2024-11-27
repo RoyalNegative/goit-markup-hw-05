@@ -507,6 +507,8 @@ header a:focus {
   height: 40px;
 }
 
+.input-box:focus {
+}
 .modal-privacy {
   color: #4d5ae5;
   text-decoration: underline;
