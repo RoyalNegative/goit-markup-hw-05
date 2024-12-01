@@ -445,37 +445,61 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form-container">
+          <p>Subscribe</p>
+          <form action="" class="footer-form-class">
+            <label for=""></label>
+            <input type="email" placeholder="E-posta" class="footer-form-email">
+            <button type="submit" class="footer-form-btn"> 
+              Subscribe
+              <svg class="footer-form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="overlay">
-      <div class="modal-container is-open">
-        <form action="submit" class="modal-form">
-          <h2>Leave your contacts and we will call you back</h2>
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" class="input-box" />
-          <label for="tel">Phone</label>
-          <input type="tel" id="tel" name="tel" class="input-box" />
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" class="input-box" />
-          <label for="comment">Comment</label>
-          <textarea id="comment" name="comment" rows="4" cols="50">
-Text input</textarea
-          >
-          <div>
-            <input type="checkbox" />
-            <label for="checkbox"
-              >I accept the terms and conditions of the
-              <span class="modal-privacy">Privacy Policy</span></label
-            >
-          </div>
-
-          <button class="form-submit-button" type="button">
-            <svg class="close-icon" width="24" height="24">
+      <div class="modal-container">
+        <button type="button" class="form-close-button">
+          <svg class="close-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
-          </button>
+        </button>
+        <form>
+          <label for="name">Name</label>
+          <div style="display: flex; align-items: center;">
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-user"></use>
+            </svg>
+            <input type="text" id="name" name="name" placeholder="Name" style="margin-left: 8px;">
+          </div>
+
+          <label for="phone">Phone</label>
+          <div style="display: flex; align-items: center;">
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+            <input type="tel" id="phone" name="phone" placeholder="Phone" style="margin-left: 8px;">
+          </div>
+
+          <label for="email">Email</label>
+          <div style="display: flex; align-items: center;">
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-mail"></use>
+            </svg>
+            <input type="email" id="email" name="email" placeholder="Email" style="margin-left: 8px;">
+          </div>
+
+          <label for="comment">Comment</label>
+          <textarea id="comment" name="comment" placeholder="Text input"></textarea>
         </form>
+
       </div>
     </div>
-  </body>
-</html>
+          
+        </div>
+        </body>
+        </html>
+        
