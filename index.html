@@ -446,14 +446,17 @@
           </ul>
         </div>
         <div class="footer-form-container">
-          <p>Subscribe</p>
+          <p class="footer-form-title">Subscribe</p>
           <form class="footer-form-class">
-            <label for="footer-form-label" class="footer-form-label"></label>
-            <input
-              type="email"
-              placeholder="E-posta"
-              class="footer-form-email"
-            />
+            <label for="email" class="footer-form-label">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-posta"
+                class="footer-form-email"
+              />
+            </label>
             <button type="submit" class="footer-form-btn">
               Subscribe
               <svg class="footer-form-icon" width="24" height="24">
@@ -465,7 +468,7 @@
       </div>
     </footer>
 
-    <div class="modal-window-wrapper is-open">
+    <div class="modal-window-wrapper">
       <div class="modal-container-wrapper">
         <button type="button" class="close-btn-wrapper">
           <svg class="close-icon-wrapper" width="8" height="8">
