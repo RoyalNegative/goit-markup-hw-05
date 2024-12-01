@@ -510,6 +510,10 @@ header a:focus {
   border: none;
   border-radius: 4px;
 }
+
+.footer-form-icon {
+  margin-left: 16px;
+}
 /* Modal */
 
 .is-open {
