@@ -593,6 +593,10 @@ header a:focus {
   margin-bottom: 8px;
 }
 
+.form-comment-input {
+  margin-bottom: 16px;
+}
+
 .form-label-text {
   font-size: 12px;
   line-height: 1.17;
@@ -681,6 +685,19 @@ header a:focus {
   margin-right: 8px;
 }
 
+.modal-privacy-policy {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
 .visually-hidden-box {
   position: absolute;
   width: 1px;
@@ -689,4 +706,30 @@ header a:focus {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
+}
+
+.visually-hidden-box:checked + .modal-privacy-policy {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.privacy-policy-a {
+  color: #4d5ae5;
+}
+
+.submit-btn-box {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
