@@ -718,7 +718,7 @@ header a:focus {
   color: #4d5ae5;
 }
 
-[type="checkbox"]:checked + .modal-privacy-policy {
+.visually-hidden-box:checked + .modal-privacy-policy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
